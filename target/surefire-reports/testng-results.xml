@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="31485" started-at="2021-05-30T12:30:18 EDT" finished-at="2021-05-30T12:30:49 EDT">
+    <groups>
+      <group name="regression">
+        <method signature="AddEmployeeTest.addMultipleEmployee()[pri:0, instance:testcases.AddEmployeeTest@610694f1]" name="addMultipleEmployee" class="testcases.AddEmployeeTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="regression test" duration-ms="31485" started-at="2021-05-30T12:30:18 EDT" finished-at="2021-05-30T12:30:49 EDT">
+      <class name="testcases.AddEmployeeTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.AddEmployeeTest@610694f1]" name="setUp" is-config="true" duration-ms="5348" started-at="2021-05-30T12:30:18 EDT" finished-at="2021-05-30T12:30:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addMultipleEmployee()[pri:0, instance:testcases.AddEmployeeTest@610694f1]" name="addMultipleEmployee" duration-ms="25322" started-at="2021-05-30T12:30:23 EDT" finished-at="2021-05-30T12:30:48 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMultipleEmployee -->
+        <test-method status="PASS" signature="closBrowser()[pri:0, instance:testcases.AddEmployeeTest@610694f1]" name="closBrowser" is-config="true" duration-ms="665" started-at="2021-05-30T12:30:48 EDT" finished-at="2021-05-30T12:30:49 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closBrowser -->
+      </class> <!-- testcases.AddEmployeeTest -->
+    </test> <!-- regression test -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
