@@ -30,7 +30,7 @@ public class CommonMethods {
                 WebDriverManager.chromedriver().setup();
                 driver = new ChromeDriver();
                 break;
-            case "Fairfax":
+            case "Firefox":
                 //System.setProperty("webdriver.gecko.driver", "drivers/geckodriver.exe");
                 WebDriverManager.firefoxdriver().setup();
                 driver = new FirefoxDriver();
